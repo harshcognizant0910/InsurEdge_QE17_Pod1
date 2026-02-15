@@ -1,0 +1,12 @@
+insurEdgeCustomerAuthorizePage\AuthorizePage.class
+projectConfig\BrowserConfig.class
+testScripts\FooterSectionCreditsValidation.class
+insurEdgeHomepage\FooterSectionHyperlink.class
+insurEdgeCustomerAuthorizePage\ValidateCustomerDetailsTable.class
+insurEdgeHomepage\HamburgerMenu.class
+insurEdgeCustomerAuthorizePage\CustomerAuthorizeTitleUIValidation.class
+testScripts\HamburgerFuncValidation.class
+testScripts\FooterSectionHyperLinkValidation.class
+testScripts\NewTest.class
+insurEdgeHomepage\HomePage.class
+insurEdgeHomepage\FooterSectionCredits.class
