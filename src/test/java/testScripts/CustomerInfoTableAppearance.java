@@ -24,7 +24,7 @@ public class CustomerInfoTableAppearance {
   public void performUIValidationOnCustomerTable() {
 	  try {
 	 String msg= page2.actionsOnCustomerInfoTableAppearance();
-	  if(msg.equalsIgnoreCase("Table is Appearing on the Screen"));
+	  if(msg.equalsIgnoreCase("Table is Appearing on the Screen"))
 	  Assert.assertTrue(true);
 	  else Assert.fail();
 		  

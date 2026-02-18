@@ -2,7 +2,6 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Sprint-1_Sharib" parallel="tests">
 
-  <!-- Chrome execution for Hamburger menu validation -->
   <test thread-count="5" name="US17_P1_05_ChromeTest">
     <parameter name="browser" value="chrome"/>
     <classes>
@@ -10,7 +9,6 @@
     </classes>
   </test>
 
-  <!-- Edge execution for Hamburger menu validation -->
   <test thread-count="5" name="US17_P1_05_EdgeTest">
     <parameter name="browser" value="edge"/>
     <classes>
@@ -18,7 +16,6 @@
     </classes>
   </test>
 
-  <!-- Chrome execution for Footer Credits validation -->
   <test thread-count="5" name="US17_P1_07_Credits_Chrome">
     <parameter name="browser" value="chrome"/>
     <classes>
@@ -26,7 +23,6 @@
     </classes>
   </test>
 
-  <!-- Edge execution for Footer Credits validation -->
   <test thread-count="5" name="US17_P1_07_Credits_Edge">
     <parameter name="browser" value="edge"/>
     <classes>
@@ -34,15 +30,13 @@
     </classes>
   </test>
 
-  <!-- Chrome execution for Footer Hyperlink validation -->
-  <test thread-count="5" name="US17_P1_07_HyperLink_Chrome">
+ <test thread-count="5" name="US17_P1_07_HyperLink_Chrome">
     <parameter name="browser" value="chrome"/>
     <classes>
       <class name="testScripts.FooterSectionHyperLinkValidation"/>
     </classes>
   </test>
 
-  <!-- Edge execution for Footer Hyperlink validation -->
   <test thread-count="5" name="US17_P1_07_HyperLink_Edge">
     <parameter name="browser" value="edge"/>
     <classes>
@@ -68,6 +62,74 @@
   	<classes>
   	<class name="testScripts.CustomerAuthorizeTitleUIValidation"/>
   	</classes>
+  </test>
+  
+  <test thread-count="5" name ="US17_P1_12_CustomerInfoTableAppearance_Edge">
+  <parameters>
+  <parameter name="browser" value="edge"/>
+  <parameter name="url" value="https://qeaskillhub.cognizant.com/LoginPage"/>
+  </parameters>
+  <classes>
+  <class name="testScripts.CustomerInfoTableAppearance"/>
+  </classes>
+  </test>
+  
+  <test thread-count="5" name ="US17_P1_12_CustomerInfoTableAppearance_Chrome">
+  <parameters>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="url" value="https://qeaskillhub.cognizant.com/LoginPage"/>
+  </parameters>
+  <classes>
+  <class name="testScripts.CustomerInfoTableAppearance"/>
+  </classes>
+  </test>
+  
+  <test thread-count="5" name ="US17_P1_12_CustomerDataTableColumnSpellingValidation_Edge">
+  <parameters>
+  <parameter name="browser" value="edge"/>
+  <parameter name="url" value="https://qeaskillhub.cognizant.com/LoginPage"/>
+  </parameters>
+  <classes>
+  <class name="testScripts.CustomerInfoTableColumnSpellingValidation"/>
+  </classes>
+  </test>
+  
+  <test thread-count="5" name ="US17_P1_12_CustomerDataTableColumnSpellingValidation_Chrome">
+  <parameters>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="url" value="https://qeaskillhub.cognizant.com/LoginPage"/>
+  </parameters>
+  <classes>
+  <class name="testScripts.CustomerInfoTableColumnSpellingValidation"/>
+  </classes>
+  </test>-->
+  <test name="US17_P1_24_ScrollToTop_Chrome">
+  <parameters>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="url" value="https://qeaskillhub.cognizant.com/LoginPage"/>
+  </parameters>
+  <classes>
+  <class name="testScripts.ScrollToTopFuncValidation"/>
+  <class name="testScripts.BackToTopsScrollBtnHidden"/>
+  </classes>
+  </test>
+  <test name="US17_P1_21_CustomerRowCheckBoxValidation">
+  <parameters>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="url" value="https://qeaskillhub.cognizant.com/LoginPage"/>
+  </parameters>
+  <classes>
+  <class name="testScripts.CustomerRowCheckBoxValidation"/>
+  </classes>
+  </test>
+ <test name="US17_P1_21_CustomerRowCheckBoxValidationAfterOperation">
+  <parameters>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="url" value="https://qeaskillhub.cognizant.com/LoginPage"/>
+  </parameters>
+  <classes>
+  <class name="testScripts.CustomerRowFLow2"/>
+  </classes>
   </test>
 
 </suite>

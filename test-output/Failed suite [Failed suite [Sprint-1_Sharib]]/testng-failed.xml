@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Failed suite [Failed suite [Sprint-1_Sharib]]]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="US17_P1_12_CustomerDataTableColumnSpellingValidation_Chrome(failed)(failed)(failed)">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="https://qeaskillhub.cognizant.com/LoginPage"/>
+    <classes>
+      <class name="testScripts.CustomerInfoTableColumnSpellingValidation">
+        <methods>
+          <include name="browserSetUp"/>
+          <include name="closeBrowser"/>
+          <include name="performValidationOnColumnSpellings"/>
+          <include name="browserType"/>
+        </methods>
+      </class> <!-- testScripts.CustomerInfoTableColumnSpellingValidation -->
+    </classes>
+  </test> <!-- US17_P1_12_CustomerDataTableColumnSpellingValidation_Chrome(failed)(failed)(failed) -->
+  <test thread-count="5" parallel="tests" name="US17_P1_12_CustomerDataTableColumnSpellingValidation_Edge(failed)(failed)(failed)">
+    <parameter name="browser" value="edge"/>
+    <parameter name="url" value="https://qeaskillhub.cognizant.com/LoginPage"/>
+    <classes>
+      <class name="testScripts.CustomerInfoTableColumnSpellingValidation">
+        <methods>
+          <include name="browserSetUp"/>
+          <include name="closeBrowser"/>
+          <include name="performValidationOnColumnSpellings"/>
+          <include name="browserType"/>
+        </methods>
+      </class> <!-- testScripts.CustomerInfoTableColumnSpellingValidation -->
+    </classes>
+  </test> <!-- US17_P1_12_CustomerDataTableColumnSpellingValidation_Edge(failed)(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Failed suite [Sprint-1_Sharib]]] -->

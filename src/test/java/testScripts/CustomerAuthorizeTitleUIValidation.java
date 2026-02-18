@@ -8,6 +8,7 @@ import org.openqa.selenium.support.Color;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Optional;
@@ -24,7 +25,7 @@ public class CustomerAuthorizeTitleUIValidation {
 	WebDriverWait wait=null;
 	HomePage page1=null;
 	AuthorizePage page2=null;
-  @Test
+  @Test(priority=1)
   public void customerAuthorizetitleValidation() {
 	  try
 		{
@@ -40,11 +41,23 @@ public class CustomerAuthorizeTitleUIValidation {
 		{
 			System.out.println(e.getMessage());
 		}
-		finally
-		{
-			driver.quit();
-		}
   }
+  @Test(priority=2)
+  public void validationOfBreadCrumbs()
+  {
+	  try {
+	  String msg=page2.performActionsOnPageTrail();
+	  if(msg.contains("Customer / Authorize"))
+		  Assert.assertTrue(true);
+	  }
+	  catch(NoSuchElementException e)
+	  {
+		  System.out.println(e.getMessage());
+		  Assert.fail();
+	  }
+	  
+  }
+  
   @BeforeMethod
   @Parameters("browser")
   public void browserType(@Optional("chrome") String browser) {
@@ -63,7 +76,7 @@ public class CustomerAuthorizeTitleUIValidation {
 	  config=new BrowserConfig();
   }
 
-  @AfterClass
+  @AfterMethod
   public void afterClass() {
 	  driver.quit();
   }

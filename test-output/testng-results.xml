@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+<testng-results ignored="0" total="20" passed="18" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-02-15T10:37:11 IST" name="Sprint-1_Sharib" finished-at="2026-02-15T10:37:57 IST" duration-ms="45787">
+  <suite started-at="2026-02-17T23:21:45 IST" name="Sprint-1_Sharib" finished-at="2026-02-17T23:24:22 IST" duration-ms="156722">
     <groups>
     </groups>
-    <test started-at="2026-02-15T10:37:11 IST" name="US17_P1_07_Credits_Chrome" finished-at="2026-02-15T10:37:31 IST" duration-ms="19261">
+    <test started-at="2026-02-17T23:21:45 IST" name="US17_P1_07_Credits_Chrome" finished-at="2026-02-17T23:22:15 IST" duration-ms="29431">
       <class name="testScripts.FooterSectionCreditsValidation">
-        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:testScripts.FooterSectionCreditsValidation@26abb146]" started-at="2026-02-15T10:37:12 IST" name="setUpBrowser" finished-at="2026-02-15T10:37:12 IST" duration-ms="22" status="PASS">
+        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:testScripts.FooterSectionCreditsValidation@26abb146]" started-at="2026-02-17T23:21:46 IST" name="setUpBrowser" finished-at="2026-02-17T23:21:46 IST" duration-ms="24" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBrowser -->
-        <test-method is-config="true" signature="performLogin(java.lang.String)[pri:0, instance:testScripts.FooterSectionCreditsValidation@26abb146]" started-at="2026-02-15T10:37:12 IST" name="performLogin" finished-at="2026-02-15T10:37:22 IST" duration-ms="10947" status="PASS">
+        <test-method is-config="true" signature="performLogin(java.lang.String)[pri:0, instance:testScripts.FooterSectionCreditsValidation@26abb146]" started-at="2026-02-17T23:21:46 IST" name="performLogin" finished-at="2026-02-17T23:22:01 IST" duration-ms="15568" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,50 +22,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- performLogin -->
-        <test-method signature="performValidationOnFooterSectionCredits()[pri:1, instance:testScripts.FooterSectionCreditsValidation@26abb146]" started-at="2026-02-15T10:37:22 IST" name="performValidationOnFooterSectionCredits" finished-at="2026-02-15T10:37:23 IST" duration-ms="124" status="PASS">
+        <test-method signature="performValidationOnFooterSectionCredits()[pri:1, instance:testScripts.FooterSectionCreditsValidation@26abb146]" started-at="2026-02-17T23:22:01 IST" name="performValidationOnFooterSectionCredits" finished-at="2026-02-17T23:22:03 IST" duration-ms="1568" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- performValidationOnFooterSectionCredits -->
-        <test-method is-config="true" signature="closeResources()[pri:0, instance:testScripts.FooterSectionCreditsValidation@26abb146]" started-at="2026-02-15T10:37:23 IST" name="closeResources" finished-at="2026-02-15T10:37:31 IST" duration-ms="8088" status="PASS">
+        <test-method is-config="true" signature="closeResources()[pri:0, instance:testScripts.FooterSectionCreditsValidation@26abb146]" started-at="2026-02-17T23:22:03 IST" name="closeResources" finished-at="2026-02-17T23:22:15 IST" duration-ms="12095" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeResources -->
       </class> <!-- testScripts.FooterSectionCreditsValidation -->
     </test> <!-- US17_P1_07_Credits_Chrome -->
-    <test started-at="2026-02-15T10:37:11 IST" name="US17_P1_07_HyperLink_Chrome" finished-at="2026-02-15T10:37:40 IST" duration-ms="28518">
-      <class name="testScripts.FooterSectionHyperLinkValidation">
-        <test-method is-config="true" signature="browserSetup()[pri:0, instance:testScripts.FooterSectionHyperLinkValidation@2dfaea86]" started-at="2026-02-15T10:37:12 IST" name="browserSetup" finished-at="2026-02-15T10:37:12 IST" duration-ms="22" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserSetup -->
-        <test-method is-config="true" signature="setUpBrowserType(java.lang.String)[pri:0, instance:testScripts.FooterSectionHyperLinkValidation@2dfaea86]" started-at="2026-02-15T10:37:12 IST" name="setUpBrowserType" finished-at="2026-02-15T10:37:21 IST" duration-ms="9614" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpBrowserType -->
-        <test-method signature="performValidationOfHyperLink()[pri:0, instance:testScripts.FooterSectionHyperLinkValidation@2dfaea86]" started-at="2026-02-15T10:37:21 IST" name="performValidationOfHyperLink" finished-at="2026-02-15T10:37:27 IST" duration-ms="6159" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- performValidationOfHyperLink -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testScripts.FooterSectionHyperLinkValidation@2dfaea86]" started-at="2026-02-15T10:37:27 IST" name="closeBrowser" finished-at="2026-02-15T10:37:40 IST" duration-ms="12644" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- testScripts.FooterSectionHyperLinkValidation -->
-    </test> <!-- US17_P1_07_HyperLink_Chrome -->
-    <test started-at="2026-02-15T10:37:11 IST" name="US17_P1_07_Credits_Edge" finished-at="2026-02-15T10:37:41 IST" duration-ms="29580">
+    <test started-at="2026-02-17T23:21:45 IST" name="US17_P1_07_Credits_Edge" finished-at="2026-02-17T23:22:15 IST" duration-ms="29663">
       <class name="testScripts.FooterSectionCreditsValidation">
-        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:testScripts.FooterSectionCreditsValidation@38467116]" started-at="2026-02-15T10:37:12 IST" name="setUpBrowser" finished-at="2026-02-15T10:37:12 IST" duration-ms="21" status="PASS">
+        <test-method is-config="true" signature="setUpBrowser()[pri:0, instance:testScripts.FooterSectionCreditsValidation@38467116]" started-at="2026-02-17T23:21:46 IST" name="setUpBrowser" finished-at="2026-02-17T23:21:46 IST" duration-ms="24" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBrowser -->
-        <test-method is-config="true" signature="performLogin(java.lang.String)[pri:0, instance:testScripts.FooterSectionCreditsValidation@38467116]" started-at="2026-02-15T10:37:12 IST" name="performLogin" finished-at="2026-02-15T10:37:30 IST" duration-ms="18707" status="PASS">
+        <test-method is-config="true" signature="performLogin(java.lang.String)[pri:0, instance:testScripts.FooterSectionCreditsValidation@38467116]" started-at="2026-02-17T23:21:46 IST" name="performLogin" finished-at="2026-02-17T23:22:02 IST" duration-ms="16859" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -76,23 +49,50 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- performLogin -->
-        <test-method signature="performValidationOnFooterSectionCredits()[pri:1, instance:testScripts.FooterSectionCreditsValidation@38467116]" started-at="2026-02-15T10:37:30 IST" name="performValidationOnFooterSectionCredits" finished-at="2026-02-15T10:37:30 IST" duration-ms="76" status="PASS">
+        <test-method signature="performValidationOnFooterSectionCredits()[pri:1, instance:testScripts.FooterSectionCreditsValidation@38467116]" started-at="2026-02-17T23:22:02 IST" name="performValidationOnFooterSectionCredits" finished-at="2026-02-17T23:22:03 IST" duration-ms="563" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- performValidationOnFooterSectionCredits -->
-        <test-method is-config="true" signature="closeResources()[pri:0, instance:testScripts.FooterSectionCreditsValidation@38467116]" started-at="2026-02-15T10:37:30 IST" name="closeResources" finished-at="2026-02-15T10:37:41 IST" duration-ms="10710" status="PASS">
+        <test-method is-config="true" signature="closeResources()[pri:0, instance:testScripts.FooterSectionCreditsValidation@38467116]" started-at="2026-02-17T23:22:03 IST" name="closeResources" finished-at="2026-02-17T23:22:15 IST" duration-ms="12130" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeResources -->
       </class> <!-- testScripts.FooterSectionCreditsValidation -->
     </test> <!-- US17_P1_07_Credits_Edge -->
-    <test started-at="2026-02-15T10:37:31 IST" name="US17_P1_07_HyperLink_Edge" finished-at="2026-02-15T10:37:41 IST" duration-ms="10458">
+    <test started-at="2026-02-17T23:21:45 IST" name="US17_P1_07_HyperLink_Chrome" finished-at="2026-02-17T23:22:16 IST" duration-ms="30192">
       <class name="testScripts.FooterSectionHyperLinkValidation">
-        <test-method is-config="true" signature="browserSetup()[pri:0, instance:testScripts.FooterSectionHyperLinkValidation@6e2829c7]" started-at="2026-02-15T10:37:31 IST" name="browserSetup" finished-at="2026-02-15T10:37:31 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="browserSetup()[pri:0, instance:testScripts.FooterSectionHyperLinkValidation@2dfaea86]" started-at="2026-02-17T23:21:46 IST" name="browserSetup" finished-at="2026-02-17T23:21:46 IST" duration-ms="24" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserSetup -->
-        <test-method is-config="true" signature="setUpBrowserType(java.lang.String)[pri:0, instance:testScripts.FooterSectionHyperLinkValidation@6e2829c7]" started-at="2026-02-15T10:37:31 IST" name="setUpBrowserType" finished-at="2026-02-15T10:37:36 IST" duration-ms="4858" status="PASS">
+        <test-method is-config="true" signature="setUpBrowserType(java.lang.String)[pri:0, instance:testScripts.FooterSectionHyperLinkValidation@2dfaea86]" started-at="2026-02-17T23:21:46 IST" name="setUpBrowserType" finished-at="2026-02-17T23:22:03 IST" duration-ms="17456" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowserType -->
+        <test-method signature="performValidationOfHyperLink()[pri:0, instance:testScripts.FooterSectionHyperLinkValidation@2dfaea86]" started-at="2026-02-17T23:22:03 IST" name="performValidationOfHyperLink" finished-at="2026-02-17T23:22:07 IST" duration-ms="4349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performValidationOfHyperLink -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testScripts.FooterSectionHyperLinkValidation@2dfaea86]" started-at="2026-02-17T23:22:07 IST" name="closeBrowser" finished-at="2026-02-17T23:22:16 IST" duration-ms="8289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testScripts.FooterSectionHyperLinkValidation -->
+    </test> <!-- US17_P1_07_HyperLink_Chrome -->
+    <test started-at="2026-02-17T23:22:15 IST" name="US17_P1_07_HyperLink_Edge" finished-at="2026-02-17T23:22:31 IST" duration-ms="16490">
+      <class name="testScripts.FooterSectionHyperLinkValidation">
+        <test-method is-config="true" signature="browserSetup()[pri:0, instance:testScripts.FooterSectionHyperLinkValidation@6e2829c7]" started-at="2026-02-17T23:22:15 IST" name="browserSetup" finished-at="2026-02-17T23:22:15 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method is-config="true" signature="setUpBrowserType(java.lang.String)[pri:0, instance:testScripts.FooterSectionHyperLinkValidation@6e2829c7]" started-at="2026-02-17T23:22:15 IST" name="setUpBrowserType" finished-at="2026-02-17T23:22:23 IST" duration-ms="7619" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -103,50 +103,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBrowserType -->
-        <test-method signature="performValidationOfHyperLink()[pri:0, instance:testScripts.FooterSectionHyperLinkValidation@6e2829c7]" started-at="2026-02-15T10:37:36 IST" name="performValidationOfHyperLink" finished-at="2026-02-15T10:37:37 IST" duration-ms="1319" status="PASS">
+        <test-method signature="performValidationOfHyperLink()[pri:0, instance:testScripts.FooterSectionHyperLinkValidation@6e2829c7]" started-at="2026-02-17T23:22:23 IST" name="performValidationOfHyperLink" finished-at="2026-02-17T23:22:25 IST" duration-ms="1978" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- performValidationOfHyperLink -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testScripts.FooterSectionHyperLinkValidation@6e2829c7]" started-at="2026-02-15T10:37:37 IST" name="closeBrowser" finished-at="2026-02-15T10:37:41 IST" duration-ms="4271" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testScripts.FooterSectionHyperLinkValidation@6e2829c7]" started-at="2026-02-17T23:22:25 IST" name="closeBrowser" finished-at="2026-02-17T23:22:31 IST" duration-ms="6890" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- testScripts.FooterSectionHyperLinkValidation -->
     </test> <!-- US17_P1_07_HyperLink_Edge -->
-    <test started-at="2026-02-15T10:37:40 IST" name="US17_P1_08_AuthorizeCustomerTitle_Chrome" finished-at="2026-02-15T10:37:53 IST" duration-ms="13058">
-      <class name="testScripts.CustomerAuthorizeTitleUIValidation">
-        <test-method is-config="true" signature="browserSetup()[pri:0, instance:testScripts.CustomerAuthorizeTitleUIValidation@69c81773]" started-at="2026-02-15T10:37:40 IST" name="browserSetup" finished-at="2026-02-15T10:37:40 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserSetup -->
-        <test-method is-config="true" signature="browserType(java.lang.String)[pri:0, instance:testScripts.CustomerAuthorizeTitleUIValidation@69c81773]" started-at="2026-02-15T10:37:40 IST" name="browserType" finished-at="2026-02-15T10:37:48 IST" duration-ms="7510" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserType -->
-        <test-method signature="customerAuthorizetitleValidation()[pri:0, instance:testScripts.CustomerAuthorizeTitleUIValidation@69c81773]" started-at="2026-02-15T10:37:48 IST" name="customerAuthorizetitleValidation" finished-at="2026-02-15T10:37:53 IST" duration-ms="5539" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- customerAuthorizetitleValidation -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:testScripts.CustomerAuthorizeTitleUIValidation@69c81773]" started-at="2026-02-15T10:37:53 IST" name="afterClass" finished-at="2026-02-15T10:37:53 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- testScripts.CustomerAuthorizeTitleUIValidation -->
-    </test> <!-- US17_P1_08_AuthorizeCustomerTitle_Chrome -->
-    <test started-at="2026-02-15T10:37:11 IST" name="US17_P1_05_ChromeTest" finished-at="2026-02-15T10:37:56 IST" duration-ms="44500">
+    <test started-at="2026-02-17T23:21:45 IST" name="US17_P1_05_ChromeTest" finished-at="2026-02-17T23:22:41 IST" duration-ms="55179">
       <class name="testScripts.HamburgerFuncValidation">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testScripts.HamburgerFuncValidation@4d1c005e]" started-at="2026-02-15T10:37:12 IST" name="beforeClass" finished-at="2026-02-15T10:37:12 IST" duration-ms="22" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testScripts.HamburgerFuncValidation@4d1c005e]" started-at="2026-02-17T23:21:46 IST" name="beforeClass" finished-at="2026-02-17T23:21:46 IST" duration-ms="24" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testScripts.HamburgerFuncValidation@4d1c005e]" started-at="2026-02-15T10:37:12 IST" name="beforeMethod" finished-at="2026-02-15T10:37:21 IST" duration-ms="9845" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testScripts.HamburgerFuncValidation@4d1c005e]" started-at="2026-02-17T23:21:46 IST" name="beforeMethod" finished-at="2026-02-17T23:22:04 IST" duration-ms="18256" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -157,15 +130,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="performActionsOnHamburgerClose()[pri:1, instance:testScripts.HamburgerFuncValidation@4d1c005e]" started-at="2026-02-15T10:37:21 IST" name="performActionsOnHamburgerClose" finished-at="2026-02-15T10:37:33 IST" duration-ms="11764" status="PASS">
+        <test-method signature="performActionsOnHamburgerClose()[pri:1, instance:testScripts.HamburgerFuncValidation@4d1c005e]" started-at="2026-02-17T23:22:04 IST" name="performActionsOnHamburgerClose" finished-at="2026-02-17T23:22:14 IST" duration-ms="10635" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- performActionsOnHamburgerClose -->
-        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:testScripts.HamburgerFuncValidation@4d1c005e]" started-at="2026-02-15T10:37:33 IST" name="AfterMethod" finished-at="2026-02-15T10:37:42 IST" duration-ms="8339" status="PASS">
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:testScripts.HamburgerFuncValidation@4d1c005e]" started-at="2026-02-17T23:22:14 IST" name="AfterMethod" finished-at="2026-02-17T23:22:26 IST" duration-ms="11143" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testScripts.HamburgerFuncValidation@4d1c005e]" started-at="2026-02-15T10:37:42 IST" name="beforeMethod" finished-at="2026-02-15T10:37:48 IST" duration-ms="6630" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testScripts.HamburgerFuncValidation@4d1c005e]" started-at="2026-02-17T23:22:26 IST" name="beforeMethod" finished-at="2026-02-17T23:22:31 IST" duration-ms="5333" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -176,23 +149,115 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="hamburgerFuncValidationTestOpen()[pri:2, instance:testScripts.HamburgerFuncValidation@4d1c005e]" started-at="2026-02-15T10:37:48 IST" name="hamburgerFuncValidationTestOpen" finished-at="2026-02-15T10:37:49 IST" duration-ms="590" status="PASS">
+        <test-method signature="hamburgerFuncValidationTestOpen()[pri:2, instance:testScripts.HamburgerFuncValidation@4d1c005e]" started-at="2026-02-17T23:22:31 IST" name="hamburgerFuncValidationTestOpen" finished-at="2026-02-17T23:22:31 IST" duration-ms="284" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- hamburgerFuncValidationTestOpen -->
-        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:testScripts.HamburgerFuncValidation@4d1c005e]" started-at="2026-02-15T10:37:49 IST" name="AfterMethod" finished-at="2026-02-15T10:37:56 IST" duration-ms="7229" status="PASS">
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:testScripts.HamburgerFuncValidation@4d1c005e]" started-at="2026-02-17T23:22:31 IST" name="AfterMethod" finished-at="2026-02-17T23:22:41 IST" duration-ms="9424" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterMethod -->
       </class> <!-- testScripts.HamburgerFuncValidation -->
     </test> <!-- US17_P1_05_ChromeTest -->
-    <test started-at="2026-02-15T10:37:41 IST" name="US17_P1_08_AuthorizeCustomerTitle_Edge" finished-at="2026-02-15T10:37:56 IST" duration-ms="15102">
+    <test started-at="2026-02-17T23:21:45 IST" name="US17_P1_05_EdgeTest" finished-at="2026-02-17T23:22:41 IST" duration-ms="55642">
+      <class name="testScripts.HamburgerFuncValidation">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testScripts.HamburgerFuncValidation@17bffc17]" started-at="2026-02-17T23:21:46 IST" name="beforeClass" finished-at="2026-02-17T23:21:46 IST" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testScripts.HamburgerFuncValidation@17bffc17]" started-at="2026-02-17T23:21:46 IST" name="beforeMethod" finished-at="2026-02-17T23:22:03 IST" duration-ms="17145" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="performActionsOnHamburgerClose()[pri:1, instance:testScripts.HamburgerFuncValidation@17bffc17]" started-at="2026-02-17T23:22:03 IST" name="performActionsOnHamburgerClose" finished-at="2026-02-17T23:22:14 IST" duration-ms="11227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performActionsOnHamburgerClose -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:testScripts.HamburgerFuncValidation@17bffc17]" started-at="2026-02-17T23:22:14 IST" name="AfterMethod" finished-at="2026-02-17T23:22:25 IST" duration-ms="10894" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testScripts.HamburgerFuncValidation@17bffc17]" started-at="2026-02-17T23:22:25 IST" name="beforeMethod" finished-at="2026-02-17T23:22:31 IST" duration-ms="5749" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="hamburgerFuncValidationTestOpen()[pri:2, instance:testScripts.HamburgerFuncValidation@17bffc17]" started-at="2026-02-17T23:22:31 IST" name="hamburgerFuncValidationTestOpen" finished-at="2026-02-17T23:22:31 IST" duration-ms="318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hamburgerFuncValidationTestOpen -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:testScripts.HamburgerFuncValidation@17bffc17]" started-at="2026-02-17T23:22:31 IST" name="AfterMethod" finished-at="2026-02-17T23:22:41 IST" duration-ms="10189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+      </class> <!-- testScripts.HamburgerFuncValidation -->
+    </test> <!-- US17_P1_05_EdgeTest -->
+    <test started-at="2026-02-17T23:22:15 IST" name="US17_P1_08_AuthorizeCustomerTitle_Chrome" finished-at="2026-02-17T23:22:47 IST" duration-ms="31734">
       <class name="testScripts.CustomerAuthorizeTitleUIValidation">
-        <test-method is-config="true" signature="browserSetup()[pri:0, instance:testScripts.CustomerAuthorizeTitleUIValidation@25df00a0]" started-at="2026-02-15T10:37:41 IST" name="browserSetup" finished-at="2026-02-15T10:37:41 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="browserSetup()[pri:0, instance:testScripts.CustomerAuthorizeTitleUIValidation@4d14b6c2]" started-at="2026-02-17T23:22:15 IST" name="browserSetup" finished-at="2026-02-17T23:22:15 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserSetup -->
-        <test-method is-config="true" signature="browserType(java.lang.String)[pri:0, instance:testScripts.CustomerAuthorizeTitleUIValidation@25df00a0]" started-at="2026-02-15T10:37:41 IST" name="browserType" finished-at="2026-02-15T10:37:48 IST" duration-ms="7174" status="PASS">
+        <test-method is-config="true" signature="browserType(java.lang.String)[pri:0, instance:testScripts.CustomerAuthorizeTitleUIValidation@4d14b6c2]" started-at="2026-02-17T23:22:15 IST" name="browserType" finished-at="2026-02-17T23:22:22 IST" duration-ms="7140" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserType -->
+        <test-method signature="customerAuthorizetitleValidation()[pri:1, instance:testScripts.CustomerAuthorizeTitleUIValidation@4d14b6c2]" started-at="2026-02-17T23:22:22 IST" name="customerAuthorizetitleValidation" finished-at="2026-02-17T23:22:25 IST" duration-ms="2343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- customerAuthorizetitleValidation -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:testScripts.CustomerAuthorizeTitleUIValidation@4d14b6c2]" started-at="2026-02-17T23:22:25 IST" name="afterClass" finished-at="2026-02-17T23:22:31 IST" duration-ms="6817" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="browserType(java.lang.String)[pri:0, instance:testScripts.CustomerAuthorizeTitleUIValidation@4d14b6c2]" started-at="2026-02-17T23:22:31 IST" name="browserType" finished-at="2026-02-17T23:22:40 IST" duration-ms="8189" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserType -->
+        <test-method signature="validationOfBreadCrumbs()[pri:2, instance:testScripts.CustomerAuthorizeTitleUIValidation@4d14b6c2]" started-at="2026-02-17T23:22:40 IST" name="validationOfBreadCrumbs" finished-at="2026-02-17T23:22:40 IST" duration-ms="319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validationOfBreadCrumbs -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:testScripts.CustomerAuthorizeTitleUIValidation@4d14b6c2]" started-at="2026-02-17T23:22:40 IST" name="afterClass" finished-at="2026-02-17T23:22:47 IST" duration-ms="6898" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- testScripts.CustomerAuthorizeTitleUIValidation -->
+    </test> <!-- US17_P1_08_AuthorizeCustomerTitle_Chrome -->
+    <test started-at="2026-02-17T23:22:16 IST" name="US17_P1_08_AuthorizeCustomerTitle_Edge" finished-at="2026-02-17T23:22:47 IST" duration-ms="31789">
+      <class name="testScripts.CustomerAuthorizeTitleUIValidation">
+        <test-method is-config="true" signature="browserSetup()[pri:0, instance:testScripts.CustomerAuthorizeTitleUIValidation@4d15107f]" started-at="2026-02-17T23:22:16 IST" name="browserSetup" finished-at="2026-02-17T23:22:16 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method is-config="true" signature="browserType(java.lang.String)[pri:0, instance:testScripts.CustomerAuthorizeTitleUIValidation@4d15107f]" started-at="2026-02-17T23:22:16 IST" name="browserType" finished-at="2026-02-17T23:22:23 IST" duration-ms="7129" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -203,61 +268,352 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserType -->
-        <test-method signature="customerAuthorizetitleValidation()[pri:0, instance:testScripts.CustomerAuthorizeTitleUIValidation@25df00a0]" started-at="2026-02-15T10:37:48 IST" name="customerAuthorizetitleValidation" finished-at="2026-02-15T10:37:56 IST" duration-ms="7922" status="PASS">
+        <test-method signature="customerAuthorizetitleValidation()[pri:1, instance:testScripts.CustomerAuthorizeTitleUIValidation@4d15107f]" started-at="2026-02-17T23:22:23 IST" name="customerAuthorizetitleValidation" finished-at="2026-02-17T23:22:24 IST" duration-ms="1342" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- customerAuthorizetitleValidation -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:testScripts.CustomerAuthorizeTitleUIValidation@25df00a0]" started-at="2026-02-15T10:37:56 IST" name="afterClass" finished-at="2026-02-15T10:37:56 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:testScripts.CustomerAuthorizeTitleUIValidation@4d15107f]" started-at="2026-02-17T23:22:24 IST" name="afterClass" finished-at="2026-02-17T23:22:32 IST" duration-ms="7406" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="browserType(java.lang.String)[pri:0, instance:testScripts.CustomerAuthorizeTitleUIValidation@4d15107f]" started-at="2026-02-17T23:22:32 IST" name="browserType" finished-at="2026-02-17T23:22:40 IST" duration-ms="8578" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserType -->
+        <test-method signature="validationOfBreadCrumbs()[pri:2, instance:testScripts.CustomerAuthorizeTitleUIValidation@4d15107f]" started-at="2026-02-17T23:22:40 IST" name="validationOfBreadCrumbs" finished-at="2026-02-17T23:22:40 IST" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validationOfBreadCrumbs -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:testScripts.CustomerAuthorizeTitleUIValidation@4d15107f]" started-at="2026-02-17T23:22:40 IST" name="afterClass" finished-at="2026-02-17T23:22:47 IST" duration-ms="7215" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- testScripts.CustomerAuthorizeTitleUIValidation -->
     </test> <!-- US17_P1_08_AuthorizeCustomerTitle_Edge -->
-    <test started-at="2026-02-15T10:37:11 IST" name="US17_P1_05_EdgeTest" finished-at="2026-02-15T10:37:57 IST" duration-ms="45787">
-      <class name="testScripts.HamburgerFuncValidation">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testScripts.HamburgerFuncValidation@6e535154]" started-at="2026-02-15T10:37:12 IST" name="beforeClass" finished-at="2026-02-15T10:37:12 IST" duration-ms="22" status="PASS">
+    <test started-at="2026-02-17T23:22:31 IST" name="US17_P1_12_CustomerInfoTableAppearance_Edge" finished-at="2026-02-17T23:22:48 IST" duration-ms="16409">
+      <class name="testScripts.CustomerInfoTableAppearance">
+        <test-method is-config="true" signature="browserSetup()[pri:0, instance:testScripts.CustomerInfoTableAppearance@491b9b8]" started-at="2026-02-17T23:22:31 IST" name="browserSetup" finished-at="2026-02-17T23:22:31 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testScripts.HamburgerFuncValidation@6e535154]" started-at="2026-02-15T10:37:12 IST" name="beforeMethod" finished-at="2026-02-15T10:37:30 IST" duration-ms="18504" status="PASS">
+        </test-method> <!-- browserSetup -->
+        <test-method is-config="true" signature="browserType(java.lang.String,java.lang.String)[pri:0, instance:testScripts.CustomerInfoTableAppearance@491b9b8]" started-at="2026-02-17T23:22:31 IST" name="browserType" finished-at="2026-02-17T23:22:39 IST" duration-ms="7351" status="PASS">
           <params>
             <param index="0">
               <value>
                 <![CDATA[edge]]>
               </value>
             </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://qeaskillhub.cognizant.com/LoginPage]]>
+              </value>
+            </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="performActionsOnHamburgerClose()[pri:1, instance:testScripts.HamburgerFuncValidation@6e535154]" started-at="2026-02-15T10:37:30 IST" name="performActionsOnHamburgerClose" finished-at="2026-02-15T10:37:41 IST" duration-ms="10551" status="PASS">
+        </test-method> <!-- browserType -->
+        <test-method signature="performUIValidationOnCustomerTable()[pri:0, instance:testScripts.CustomerInfoTableAppearance@491b9b8]" started-at="2026-02-17T23:22:39 IST" name="performUIValidationOnCustomerTable" finished-at="2026-02-17T23:22:40 IST" duration-ms="1634" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- performActionsOnHamburgerClose -->
-        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:testScripts.HamburgerFuncValidation@6e535154]" started-at="2026-02-15T10:37:41 IST" name="AfterMethod" finished-at="2026-02-15T10:37:49 IST" duration-ms="8597" status="PASS">
+        </test-method> <!-- performUIValidationOnCustomerTable -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testScripts.CustomerInfoTableAppearance@491b9b8]" started-at="2026-02-17T23:22:40 IST" name="closeBrowser" finished-at="2026-02-17T23:22:48 IST" duration-ms="7421" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- AfterMethod -->
-        <test-method is-config="true" signature="beforeMethod(java.lang.String)[pri:0, instance:testScripts.HamburgerFuncValidation@6e535154]" started-at="2026-02-15T10:37:49 IST" name="beforeMethod" finished-at="2026-02-15T10:37:53 IST" duration-ms="4107" status="PASS">
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testScripts.CustomerInfoTableAppearance -->
+    </test> <!-- US17_P1_12_CustomerInfoTableAppearance_Edge -->
+    <test started-at="2026-02-17T23:22:48 IST" name="US17_P1_21_CustomerRowCheckBoxValidation" finished-at="2026-02-17T23:23:02 IST" duration-ms="14184">
+      <class name="testScripts.CustomerRowCheckBoxValidation">
+        <test-method is-config="true" signature="browserSetup()[pri:0, instance:testScripts.CustomerRowCheckBoxValidation@69504ae9]" started-at="2026-02-17T23:22:48 IST" name="browserSetup" finished-at="2026-02-17T23:22:48 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method is-config="true" signature="browserType(java.lang.String,java.lang.String)[pri:0, instance:testScripts.CustomerRowCheckBoxValidation@69504ae9]" started-at="2026-02-17T23:22:48 IST" name="browserType" finished-at="2026-02-17T23:22:54 IST" duration-ms="5906" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://qeaskillhub.cognizant.com/LoginPage]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserType -->
+        <test-method signature="validationOfCheckBox()[pri:1, instance:testScripts.CustomerRowCheckBoxValidation@69504ae9]" started-at="2026-02-17T23:22:54 IST" name="validationOfCheckBox" finished-at="2026-02-17T23:22:56 IST" duration-ms="2142" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validationOfCheckBox -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testScripts.CustomerRowCheckBoxValidation@69504ae9]" started-at="2026-02-17T23:22:56 IST" name="closeBrowser" finished-at="2026-02-17T23:23:02 IST" duration-ms="6110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testScripts.CustomerRowCheckBoxValidation -->
+    </test> <!-- US17_P1_21_CustomerRowCheckBoxValidation -->
+    <test started-at="2026-02-17T23:22:41 IST" name="US17_P1_12_CustomerDataTableColumnSpellingValidation_Edge" finished-at="2026-02-17T23:23:02 IST" duration-ms="21301">
+      <class name="testScripts.CustomerInfoTableColumnSpellingValidation">
+        <test-method is-config="true" signature="browserSetUp()[pri:0, instance:testScripts.CustomerInfoTableColumnSpellingValidation@23f5b5dc]" started-at="2026-02-17T23:22:41 IST" name="browserSetUp" finished-at="2026-02-17T23:22:41 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetUp -->
+        <test-method is-config="true" signature="browserType(java.lang.String,java.lang.String)[pri:0, instance:testScripts.CustomerInfoTableColumnSpellingValidation@23f5b5dc]" started-at="2026-02-17T23:22:41 IST" name="browserType" finished-at="2026-02-17T23:22:46 IST" duration-ms="4911" status="PASS">
           <params>
             <param index="0">
               <value>
                 <![CDATA[edge]]>
               </value>
             </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://qeaskillhub.cognizant.com/LoginPage]]>
+              </value>
+            </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="hamburgerFuncValidationTestOpen()[pri:2, instance:testScripts.HamburgerFuncValidation@6e535154]" started-at="2026-02-15T10:37:53 IST" name="hamburgerFuncValidationTestOpen" finished-at="2026-02-15T10:37:54 IST" duration-ms="575" status="PASS">
+        </test-method> <!-- browserType -->
+        <test-method signature="performValidationOnColumnSpellings()[pri:0, instance:testScripts.CustomerInfoTableColumnSpellingValidation@23f5b5dc]" started-at="2026-02-17T23:22:46 IST" name="performValidationOnColumnSpellings" finished-at="2026-02-17T23:22:49 IST" duration-ms="2781" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.fail(Assert.java:116)
+at testScripts.CustomerInfoTableColumnSpellingValidation.performValidationOnColumnSpellings(CustomerInfoTableColumnSpellingValidation.java:49)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- hamburgerFuncValidationTestOpen -->
-        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:testScripts.HamburgerFuncValidation@6e535154]" started-at="2026-02-15T10:37:54 IST" name="AfterMethod" finished-at="2026-02-15T10:37:57 IST" duration-ms="3359" status="PASS">
+        </test-method> <!-- performValidationOnColumnSpellings -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testScripts.CustomerInfoTableColumnSpellingValidation@23f5b5dc]" started-at="2026-02-17T23:22:49 IST" name="closeBrowser" finished-at="2026-02-17T23:23:02 IST" duration-ms="13601" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- AfterMethod -->
-      </class> <!-- testScripts.HamburgerFuncValidation -->
-    </test> <!-- US17_P1_05_EdgeTest -->
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testScripts.CustomerInfoTableColumnSpellingValidation -->
+    </test> <!-- US17_P1_12_CustomerDataTableColumnSpellingValidation_Edge -->
+    <test started-at="2026-02-17T23:22:41 IST" name="US17_P1_12_CustomerInfoTableAppearance_Chrome" finished-at="2026-02-17T23:23:04 IST" duration-ms="23779">
+      <class name="testScripts.CustomerInfoTableAppearance">
+        <test-method is-config="true" signature="browserSetup()[pri:0, instance:testScripts.CustomerInfoTableAppearance@97e93f1]" started-at="2026-02-17T23:22:41 IST" name="browserSetup" finished-at="2026-02-17T23:22:41 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method is-config="true" signature="browserType(java.lang.String,java.lang.String)[pri:0, instance:testScripts.CustomerInfoTableAppearance@97e93f1]" started-at="2026-02-17T23:22:41 IST" name="browserType" finished-at="2026-02-17T23:22:46 IST" duration-ms="5580" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://qeaskillhub.cognizant.com/LoginPage]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserType -->
+        <test-method signature="performUIValidationOnCustomerTable()[pri:0, instance:testScripts.CustomerInfoTableAppearance@97e93f1]" started-at="2026-02-17T23:22:46 IST" name="performUIValidationOnCustomerTable" finished-at="2026-02-17T23:22:47 IST" duration-ms="1079" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performUIValidationOnCustomerTable -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testScripts.CustomerInfoTableAppearance@97e93f1]" started-at="2026-02-17T23:22:47 IST" name="closeBrowser" finished-at="2026-02-17T23:23:04 IST" duration-ms="17110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testScripts.CustomerInfoTableAppearance -->
+    </test> <!-- US17_P1_12_CustomerInfoTableAppearance_Chrome -->
+    <test started-at="2026-02-17T23:22:47 IST" name="US17_P1_12_CustomerDataTableColumnSpellingValidation_Chrome" finished-at="2026-02-17T23:23:07 IST" duration-ms="20457">
+      <class name="testScripts.CustomerInfoTableColumnSpellingValidation">
+        <test-method is-config="true" signature="browserSetUp()[pri:0, instance:testScripts.CustomerInfoTableColumnSpellingValidation@6f43c82]" started-at="2026-02-17T23:22:47 IST" name="browserSetUp" finished-at="2026-02-17T23:22:47 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetUp -->
+        <test-method is-config="true" signature="browserType(java.lang.String,java.lang.String)[pri:0, instance:testScripts.CustomerInfoTableColumnSpellingValidation@6f43c82]" started-at="2026-02-17T23:22:47 IST" name="browserType" finished-at="2026-02-17T23:22:54 IST" duration-ms="7185" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://qeaskillhub.cognizant.com/LoginPage]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserType -->
+        <test-method signature="performValidationOnColumnSpellings()[pri:0, instance:testScripts.CustomerInfoTableColumnSpellingValidation@6f43c82]" started-at="2026-02-17T23:22:54 IST" name="performValidationOnColumnSpellings" finished-at="2026-02-17T23:22:58 IST" duration-ms="3711" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.fail(Assert.java:116)
+at testScripts.CustomerInfoTableColumnSpellingValidation.performValidationOnColumnSpellings(CustomerInfoTableColumnSpellingValidation.java:49)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- performValidationOnColumnSpellings -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testScripts.CustomerInfoTableColumnSpellingValidation@6f43c82]" started-at="2026-02-17T23:22:58 IST" name="closeBrowser" finished-at="2026-02-17T23:23:07 IST" duration-ms="9545" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testScripts.CustomerInfoTableColumnSpellingValidation -->
+    </test> <!-- US17_P1_12_CustomerDataTableColumnSpellingValidation_Chrome -->
+    <test started-at="2026-02-17T23:23:02 IST" name="US17_P1_21_CustomerRowCheckBoxValidationAfterOperation" finished-at="2026-02-17T23:23:11 IST" duration-ms="9246">
+      <class name="testScripts.CustomerRowFLow2">
+        <test-method is-config="true" signature="browserSetup()[pri:0, instance:testScripts.CustomerRowFLow2@57db2b13]" started-at="2026-02-17T23:23:02 IST" name="browserSetup" finished-at="2026-02-17T23:23:02 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method is-config="true" signature="browserType(java.lang.String,java.lang.String)[pri:0, instance:testScripts.CustomerRowFLow2@57db2b13]" started-at="2026-02-17T23:23:02 IST" name="browserType" finished-at="2026-02-17T23:23:07 IST" duration-ms="4529" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://qeaskillhub.cognizant.com/LoginPage]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserType -->
+        <test-method signature="validationOfAuthorizeCustomerRowFlow2()[pri:0, instance:testScripts.CustomerRowFLow2@57db2b13]" started-at="2026-02-17T23:23:07 IST" name="validationOfAuthorizeCustomerRowFlow2" finished-at="2026-02-17T23:23:07 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validationOfAuthorizeCustomerRowFlow2 -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testScripts.CustomerRowFLow2@57db2b13]" started-at="2026-02-17T23:23:07 IST" name="closeBrowser" finished-at="2026-02-17T23:23:11 IST" duration-ms="4693" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testScripts.CustomerRowFLow2 -->
+    </test> <!-- US17_P1_21_CustomerRowCheckBoxValidationAfterOperation -->
+    <test started-at="2026-02-17T23:22:47 IST" name="US17_P1_24_ScrollToTop_Chrome" finished-at="2026-02-17T23:24:22 IST" duration-ms="94705">
+      <class name="testScripts.BackToTopsScrollBtnHidden">
+        <test-method is-config="true" signature="browserSetup()[pri:0, instance:testScripts.BackToTopsScrollBtnHidden@446a1e84]" started-at="2026-02-17T23:23:36 IST" name="browserSetup" finished-at="2026-02-17T23:23:36 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method is-config="true" signature="browserType(java.lang.String,java.lang.String)[pri:0, instance:testScripts.BackToTopsScrollBtnHidden@446a1e84]" started-at="2026-02-17T23:23:36 IST" name="browserType" finished-at="2026-02-17T23:23:39 IST" duration-ms="3700" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://qeaskillhub.cognizant.com/LoginPage]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserType -->
+        <test-method signature="validationOfInvisibilityOfBackToTop()[pri:0, instance:testScripts.BackToTopsScrollBtnHidden@446a1e84]" started-at="2026-02-17T23:23:39 IST" name="validationOfInvisibilityOfBackToTop" finished-at="2026-02-17T23:24:17 IST" duration-ms="38069" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validationOfInvisibilityOfBackToTop -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testScripts.BackToTopsScrollBtnHidden@446a1e84]" started-at="2026-02-17T23:24:17 IST" name="closeBrowser" finished-at="2026-02-17T23:24:22 IST" duration-ms="4793" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testScripts.BackToTopsScrollBtnHidden -->
+      <class name="testScripts.ScrollToTopFuncValidation">
+        <test-method is-config="true" signature="browserSetup()[pri:0, instance:testScripts.ScrollToTopFuncValidation@58e1d9d]" started-at="2026-02-17T23:22:47 IST" name="browserSetup" finished-at="2026-02-17T23:22:47 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method is-config="true" signature="browserType(java.lang.String,java.lang.String)[pri:0, instance:testScripts.ScrollToTopFuncValidation@58e1d9d]" started-at="2026-02-17T23:22:47 IST" name="browserType" finished-at="2026-02-17T23:22:55 IST" duration-ms="7754" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://qeaskillhub.cognizant.com/LoginPage]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserType -->
+        <test-method signature="validationOfScrollToTopButton()[pri:0, instance:testScripts.ScrollToTopFuncValidation@58e1d9d]" started-at="2026-02-17T23:22:55 IST" name="validationOfScrollToTopButton" finished-at="2026-02-17T23:23:30 IST" duration-ms="35170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validationOfScrollToTopButton -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testScripts.ScrollToTopFuncValidation@58e1d9d]" started-at="2026-02-17T23:23:30 IST" name="closeBrowser" finished-at="2026-02-17T23:23:36 IST" duration-ms="5208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testScripts.ScrollToTopFuncValidation -->
+    </test> <!-- US17_P1_24_ScrollToTop_Chrome -->
   </suite> <!-- Sprint-1_Sharib -->
 </testng-results>
